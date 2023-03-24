@@ -1,0 +1,34 @@
+for loop: A for loop can be used to iterate over the keys of a JSON object. The loop will run once for each key in the object, and you can access the value of each key using bracket notation.
+
+Example:
+
+for (let key in myJsonObj) {
+  console.log(key, myJsonObj[key]);
+}
+
+
+for...in loop: A for...in loop is also used to iterate over the keys of a JSON object. It's a more modern way of writing a for loop and is specifically designed for iterating over the properties of an object.
+
+Example:
+
+for (let key in myJsonObj) {
+  console.log(key, myJsonObj[key]);
+}
+
+
+for...of loop: A for...of loop can be used to iterate over the values of an array in JSON data. The loop will run once for each value in the array.
+
+Example:
+
+for (let value of myJsonArray) {
+  console.log(value);
+}
+
+
+forEach loop: A forEach loop is used to iterate over the values of an array in JSON data as well. It's a more modern and simpler way of writing a for...of loop.
+
+Example:
+
+myJsonArray.forEach((value) => {
+  console.log(value);
+});
